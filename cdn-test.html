@@ -4,9 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script src="./test-001.js" type="module" defer></script>
-    <script src="./test-002.js" type="module" defer></script>
-    <script src="./test-003.js" type="module" defer></script>
+
+    <script type="text/javascript" src="./test-001.js"></script>
+    <script type="module" src="./test-002.js"></script>
+    <script type="module" src="./test-003.js"></script>
+    <script type="module">
+      import { Two } from "./test-002.js"
+      function test() {
+        const one = new One()
+        console.log(one)
+        const two = new Two()
+        console.log(two)
+        // const three = new Three()
+        // console.log(one, two, three)
+      }
+      test()
+    </script>
   </head>
   <body></body>
 </html>
