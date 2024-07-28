@@ -3,3 +3,5 @@ export default class Three {
     console.log(`Imported class 003`)
   }
 }
+
+console.log(`Imported file 003`)

@@ -8,4 +8,4 @@
 - `https://cdn.jsdelivr.net/gh/StockLift/SDK.StockLift@0.0.2/index.html`
 
 
-https://cdn.jsdelivr.net/gh/StockLift/SDK.StockLift/index.html
+https://cdn.jsdelivr.net/gh/StockLift/sdk-frontend/cdn-test.html
