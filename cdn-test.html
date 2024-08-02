@@ -7,7 +7,13 @@
 
     <script type="text/javascript" src="./test-001.js"></script>
     <script type="module" src="./test-002.js"></script>
-    <script type="module" src="./test-003.js"></script>
+    <script type="text/javascript" src="./test-003.js"></script>
+    <script>
+      ;(function () {
+        const three = new Three('test-key-123-456-789')
+        console.log(three)
+      })()
+    </script>
     <script type="module">
       import { Two } from "./test-002.js"
       function test() {
